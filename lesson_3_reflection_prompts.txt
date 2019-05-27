@@ -1,29 +1,43 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
-
-    Fill in your answer here
-
+    
+    when I want to share my work with other people I would remote my repository
+    
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
+    
+    pulling changes manually is better than having git stay up-to-date withremote repository
+    because in remote repository commits are made by suggestions of other people which we may
+    want to add in our program but some of them may be very small that we don't want to create 
+    unnecessary data.Automatic update can create a lot of unnessay data which will not be created
+    if it is done manually.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
-
+    Clone is copying data from online hosting services like github to your computer while forking is copying data
+    from someone's github id to your github id, branches are modified copies of each other originated from a common 
+    commit in commit history of git. When we want to try out some features in a program which we are not entirely sure
+    to include in our program,we use branches. When we want to copy data from online hosting services for git like github
+    we use cloning and when we want to copy data from someone's github account to our account, we use forking.
+    
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having a copy of the last known state if remote stored loaclly helps in merging branches of github and local repository 
+    as when there are some new commits in both github and local repository merging becomes imposible with copy of last known 
+    state of remote. Without it we would lose either one of them.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+We can collaborate using e-mails, Using e-mail has a pro that the other colaborator can also make changes to the program
+while there are many cons like we can't keep on making commits i.e saving the old versions as it would become tiresome to 
+do that and also we won't be able to use many git and github features like git diff,git status etc.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When we want to merge changes of colaborators from github in our master branch in github or local repository or
+    to get feed back of a feature which we are not completely sure of adding in our program, we use seprate branch.
+    when we use direct method we take alot less time capared to seprate branch but it will be very diffcult to experiment 
+    in new feature in the program which won't be a big problem in seprate branch method.
